@@ -62,7 +62,7 @@
                     <p class="text-3xl text-gray-800 font-bold mb-2 ">{{$libros['libro']['price']}}€</p>
                 </div>
             <div class="text-end">
-                <a href="{{ route('login')}}" class="bg-blue-500 text-white px-4 py-2 rounded-md">Inicia sesion para comprar</a>
+                <a href="{{ route('register')}}" class="bg-blue-500 text-white px-4 py-2 rounded-md">Inicia sesion para comprar</a>
             </div>
         @endauth
 
