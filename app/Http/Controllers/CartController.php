@@ -24,7 +24,7 @@ class CartController extends Controller
                 "title" => $libro['libro']['title'],
                 "quantity" => 1,
                 "price" => $libro['libro']['price'],
-                "photo" => "https://comicstores.es/imagenes_grandes/9788467/978846752861.JPG"
+                "photo" => $libro['libro']['image'],
             ];
         }
 

@@ -28,12 +28,12 @@
                     @endauth
                 </div>
             @endif
-            <div class="flex justify-evenly">
+            <div class="flex justify-between">
                 @foreach ($libros['libros'] as $libro)
 
                     <div class="bg-white shadow-md rounded-md p-4 border-black max-w-md">
                         <div class="flex">
-                            <img src="https://comicstores.es/imagenes_grandes/9788467/978846752861.JPG" alt="Imagen del producto" class="w-20 h-32 mr-4">
+                            <img src="{{$libro['image']}}" alt="Imagen del producto" class="w-20 h-32 mr-4">
                             <div>
                                 <h2 class="font-bold mb-1">{{$libro['title']}}</h2>
                                 <p class="text-gray-500">{{$libro['description']}}</p>

@@ -5,7 +5,7 @@
         <a href="{{ route('store') }}" class="bg-blue-500 text-white px-4 py-2 rounded-md">Return</a>
         <div class="flex text-center">
             <div class="w-22">
-                <img src="https://comicstores.es/imagenes_grandes/9788467/978846752861.JPG" alt="Imagen del producto" class="w-22  rounded-md mb-4 ">
+                <img src="{{$libros['libro']['image']}}" alt="Imagen del producto" class="w-22  rounded-md mb-4 ">
             </div>
             <div class="flex-col w-full">
                 <div class="text-left ml-20">
@@ -36,7 +36,7 @@
         @else
         <div class="flex text-center">
             <div class="w-22">
-                <img src="https://comicstores.es/imagenes_grandes/9788467/978846752861.JPG" alt="Imagen del producto" class="w-22  rounded-md mb-4 ">
+                <img src="{{$libros['libro']['image']}}" alt="Imagen del producto" class="w-22  rounded-md mb-4 ">
             </div>
             <div class="flex-col w-full">
                 <div class="text-left ml-20">
